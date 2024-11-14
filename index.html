@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="LEE SU BIN, 이수빈">
+    <meta name="description" content="도모문구 테스트용입니다., 사이트 예제입니다.">
+    <meta name="keyword" content="이수빈, 도모문구, 문구점, 문구">
+    <meta name="generator" content="VSC">
+    <title>도모문구</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+     <link rel="icon" href="./imges/fcon.png">
+</head>
+<body>
+    <div id="skip">
+        <a href="#nav">네비게이션1 바로가기</a>
+        <a href="#nav2">네비게이션2 바로가기</a>
+        <a href="#contents_1">NEW ITEM 바로가기</a>
+        <a href="#contents_2">BEST ITEM 바로가기</a>
+        <a href="#contents_3">ITEM 바로가기</a>
+        <a href="#contents_4">POTHO REVIEW 바로가기</a>
+        <a href="#footer">푸터 바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header">
+            <div class="container">
+                <header class="header clearfix">
+                    <article class="serch clearfix">
+                        <i class="fa-solid fa-magnifying-glass" title="검색"></i>
+                        <input type="text" id="text" class="input_text" name="search" onkeydown="enterS()">
+                    </article>
+                    <article class="tit">
+                        <h1 class="logo"><a href="./index.html"><img src="./imges/logo.png" alt="로고이미지"></a></h1>
+                    </article>
+                    <article class="shopping clearfix">
+                        <i class="fa-solid fa-user" title="마이페이지"></i>
+                        <i class="fa-solid fa-heart" title="찜"></i>
+                        <i class="fa-solid fa-cart-shopping" title="장바구니"></i>
+                    </article>
+                </header>
+            </div>
+        </header>
+        <nav id="nav">
+            <div class="container">
+                <nav class="nav clearfix">
+                    <article class="nav1_all">
+                        <ul>
+                            <li class="all_btn"><a href="#"><i class="fa-solid fa-bars"></i></a>
+                                <ul class="all clearfix">
+                                    <li><a href="#">NEW</a></li>
+                                    <li><a href="#">BEST</a></li>
+                                    <li><a href="#">캐릭터</a>
+                                        <ul class="all_sub clearfix">
+                                            <li><a href="#">짱구</a></li>
+                                            <li><a href="#">코난</a></li>
+                                            <li><a href="#">산리오</a></li>
+                                            <li><a href="#">먼작귀</a></li>
+                                            <li><a href="#">스누피</a></li>
+                                            <li><a href="#">디즈니</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">필기류</a>
+                                        <ul class="all_sub clearfix">
+                                            <li><a href="#">볼펜</a></li>
+                                            <li><a href="#">샤프</a></li>
+                                            <li><a href="#">연필</a></li>
+                                            <li><a href="#">형광펜</a></li>
+                                            <li><a href="#">멀티펜</a></li>
+                                            <li><a href="#">리필심</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">스티커</a>
+                                        <ul class="all_sub clearfix">
+                                            <li><a href="#">류류</a></li>
+                                            <li><a href="#">미도리</a></li>
+                                            <li><a href="#">스티커펀</a></li>
+                                            <li><a href="#">후루카와</a></li>
+                                            <li><a href="#">카미오재팬</a></li>
+                                            <li><a href="#">마인드웨이브</a></li>
+                                            <li><a href="#">월드크래프트</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">마스킹테이프</a>
+                                        <ul class="all_sub clearfix">
+                                            <li><a href="#">MT</a></li>
+                                            <li><a href="#">반데</a></li>
+                                            <li><a href="#">BGM</a></li>
+                                            <li><a href="#">SAIEN</a></li>
+                                            <li><a href="#">MARK'S</a></li>
+                                            <li><a href="#">라운드탑</a></li>
+                                            <li><a href="#">쿠라시키</a></li>
+                                            <li><a href="#">마인드웨이브</a></li>
+                                            <li><a href="#">월드크래프트</a></li>
+                                        </ul>
+                                        </li>
+                                    <li><a href="#">기타문구류</a>
+                                        <ul class="all_sub clearfix">
+                                            <li><a href="#">칼</a></li>
+                                            <li><a href="#">가위</a></li>
+                                            <li><a href="#">클립</a></li>
+                                            <li><a href="#">보관함</a></li>
+                                            <li><a href="#">스탬프</a></li>
+                                            <li><a href="#">데코러쉬</a></li>
+                                            <li><a href="#">모지라이너</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">고객센터</a>
+                                        <ul class="all_sub clearfix">
+                                            <li><a href="#">FAQ</a></li>
+                                            <li><a href="#">문의내역</a></li>
+                                            <li><a href="#">공지사항</a></li>
+                                            <li><a href="#">문의하기</a></li>
+                                        </ul></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="nav1 clearfix">
+                        <ul>
+                            <li><a href="#">NEW</a></li>
+                            <li><a href="#">BEST</a></li>
+                            <li><a href="#">캐릭터</a>
+                                <ul class="sub">
+                                    <li><a href="#">짱구</a></li>
+                                    <li><a href="#">코난</a></li>
+                                    <li><a href="#">산리오</a></li>
+                                    <li><a href="#">먼작귀</a></li>
+                                    <li><a href="#">스누피</a></li>
+                                    <li><a href="#">디즈니</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">필기류</a>
+                                <ul class="sub">
+                                    <li><a href="#">볼펜</a></li>
+                                    <li><a href="#">샤프</a></li>
+                                    <li><a href="#">연필</a></li>
+                                    <li><a href="#">형광펜</a></li>
+                                    <li><a href="#">멀티펜</a></li>
+                                    <li><a href="#">리필심</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">스티커</a>
+                                <ul class="sub">
+                                    <li><a href="#">류류</a></li>
+                                    <li><a href="#">미도리</a></li>
+                                    <li><a href="#">스티커펀</a></li>
+                                    <li><a href="#">후루카와</a></li>
+                                    <li><a href="#">카미오재팬</a></li>
+                                    <li><a href="#">마인드웨이브</a></li>
+                                    <li><a href="#">월드크래프트</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">마스킹테이프</a>
+                                <ul class="sub">
+                                    <li><a href="#">MT</a></li>
+                                    <li><a href="#">반데</a></li>
+                                    <li><a href="#">BGM</a></li>
+                                    <li><a href="#">SAIEN</a></li>
+                                    <li><a href="#">MARK'S</a></li>
+                                    <li><a href="#">라운드탑</a></li>
+                                    <li><a href="#">쿠라시키</a></li>
+                                    <li><a href="#">마인드웨이브</a></li>
+                                    <li><a href="#">월드크래프트</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">기타문구류</a>
+                                <ul class="sub">
+                                    <li><a href="#">칼</a></li>
+                                    <li><a href="#">가위</a></li>
+                                    <li><a href="#">클립</a></li>
+                                    <li><a href="#">보관함</a></li>
+                                    <li><a href="#">스탬프</a></li>
+                                    <li><a href="#">데코러쉬</a></li>
+                                    <li><a href="#">모지라이너</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">고객센터</a>
+                                <ul class="sub">
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">문의내역</a></li>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">문의하기</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </article>
+                </nav>
+            </div>
+        </nav>
+        <section id="banner">
+            <div class="container">
+                <article class="banner">
+                    <div><a href="#"><img src="./imges/banner/001.png" alt="마스킹테이프 배너 이미지"></a></div>
+                    <div><a href="#"><img src="./imges/banner/002.png" alt="산리오 배너 이미지"></a></div>
+                    <div><a href="#"><img src="./imges/banner/003.png" alt="마스킹테이프 컨테이너 배너 이미지"></a></div>
+                    <div><a href="#"><img src="./imges/banner/004.png" alt="필기구 배너 이미지"></a></div>
+                </article>
+            </div>
+        </section>
+        <nav id="nav2">
+            <div class="container">
+                <nav class="nav2">
+                    <article class="menu1">
+                        <div class="boxm">
+                            <ul>
+                                <li><a href="javascript:;"><img src="./imges/nav2/best.png" alt="베스트 메뉴 아이콘 이미지"></a></li>
+                            </ul>
+                        </div>
+                        <span>BEST</span>
+                    </article>
+                    <article class="menu2">
+                        <div class="boxm">
+                            <ul>
+                                <li><a href="javascript:;"><img src="./imges/nav2/pen.png" alt="필기류 메뉴 아이콘 이미지"></a></li>
+                            </ul>
+                        </div>
+                        <span>필기류</span>
+                    </article>
+                    <article class="menu3">
+                        <div class="boxm">
+                            <ul>
+                                <li><a href="javascript:;"><img src="./imges/nav2/mymel.png" alt="캐릭터 메뉴 아이콘 이미지01"></a></li>
+                                <li class="cu"><a href="javascript:;"><img src="./imges/nav2/curomi.png" alt="캐릭터 메뉴 아이콘 이미지02"></a></li>
+                            </ul>
+                        </div>
+                        <span>캐릭터</span>
+                    </article>
+                    <article class="menu4">
+                        <div class="boxm">
+                            <ul>
+                                <li><a href="javascript:;"><img src="./imges/nav2/tape.png" alt="마스킹테이프 메뉴 아이콘 이미지01"></a></li>
+                                <li><a href="javascript:;"><img src="./imges/nav2/tape2.png" alt="마스킹테이프 메뉴 아이콘 이미지02"></a></li>
+                            </ul>
+                            </div>
+                        <span>마스킹테이프</span>
+                    </article>
+                    <article class="menu5">
+                        <div class="boxm"> 
+                            <ul>
+                                <li><a href="javascript:;"><img src="./imges/nav2/sticker.png" alt="스티커 메뉴 아이콘 이미지"></a></li>
+                            </ul>
+                        </div>
+                        <span>스티커</span>
+                    </article>
+                    <article class="menu5">
+                        <div class="boxm"> 
+                            <ul>
+                                <li><a href="javascript:;"><img src="./imges/nav2/phone.png" alt="고객센터 메뉴 아이콘 이미지"></a></li>
+                            </ul>
+                        </div>
+                        <span>고객센터</span>
+                    </article>
+                </nav>
+            </div>
+        </nav>
+        <section id="contents_1">
+            <div class="container">
+                <article class="contents1_new">
+                    <article class="cont_new">
+                        <h3>NEW ITEM</h3>
+                        <ul class="clearfix">
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont1_new/1.png" alt="MT ex 마스킹테이프(플라워) 15mm 이미지01">
+                                    <p><img src="./imges/cont1_new/1h.png" alt="MT ex 마스킹테이프(플라워) 15mm 이미지02"></p>
+                                </a>
+                                <span>MT ex 마스킹테이프(플라워) 15mm</span><br>
+                                <em>2,200원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont1_new/2.png" alt="쿠라시키 시게미 마스킹테이프 15mm 이미지01">
+                                    <p><img src="./imges/cont1_new/2h.png" alt="쿠라시키 시게미 마스킹테이프 15mm 이미지02"></p>
+                                </a>
+                                <span>쿠라시키 시게미 마스킹테이프 15mm</span><br>
+                                <em>3,000원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont1_new/3.png" alt="플러스 쁘띠 모지라이너 이미지01">
+                                    <p><img src="./imges/cont1_new/3h.png" alt="플러스 쁘띠 모지라이너 이미지02"></p>
+                                </a>
+                                <span>플러스 쁘띠 모지라이너</span><br>
+                                <em>2,800원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont1_new/4.png" alt="마이멜로디통 보관함 이미지01">
+                                    <p><img src="./imges/cont1_new/4h.png" alt="마이멜로디통 보관함 이미지02"></p>
+                                </a>
+                                <span>마이멜로디통 보관함</span><br>
+                                <em>3,800원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont1_new/5.png" alt="산리오 지워지는 프릭션 3색 볼펜 이미지01">
+                                    <p><img src="./imges/cont1_new/5h.png" alt="산리오 지워지는 프릭션 3색 볼펜 이미지02"></p>
+                                </a>
+                                <span>산리오 지워지는 프릭션 3색 볼펜</span><br>
+                                <em>20,000원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont1_new/6.png" alt="BGM 수채화 타운 마스킹테이프 20mm 이미지01">
+                                    <p><img src="./imges/cont1_new/6h.png" alt="BGM 수채화 타운 마스킹테이프 20mm 이미지02"></p>
+                                </a>
+                                <span>BGM 수채화 타운 마스킹테이프 20mm</span><br>
+                                <em>4,000원</em>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="cont_more">
+                        <h4 class="btn_more">MORE</h4>
+                        <ul class="more clearfix">
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont_more/1.png" alt="MT ex 마스킹테이프(실링왁스) 30mm 이미지01">
+                                    <p><img src="./imges/cont_more/1h.png" alt="MT ex 마스킹테이프(실링왁스) 30mm 이미지02"></p>
+                                </a>
+                                <span>MT ex 마스킹테이프(실링왁스) 30mm</span><br>
+                                <em>4,000원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont_more/2.png" alt="MT ex 마스킹테이프(꽃) 30mm 이미지01">
+                                    <p><img src="./imges/cont_more/2h.png" alt="MT ex 마스킹테이프(꽃) 30mm 이미지02"></p>
+                                </a>
+                                <span>MT ex 마스킹테이프(꽃) 30mm</span><br>
+                                <em>9,000원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont_more/3.png" alt="산리오 마이멜로디 쥬스업 3색볼펜 이미지01">
+                                    <p><img src="./imges/cont_more/3h.png" alt="산리오 마이멜로디 쥬스업 3색볼펜 이미지02"></p>
+                            </a>
+                                <span>산리오 마이멜로디 쥬스업 3색볼펜</span><br>
+                                <em>10,000원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont_more/4.png" alt="PILOT 프릭션 지워지는 스탬프 이미지01">
+                                    <p><img src="./imges/cont_more/4h.png" alt="PILOT 프릭션 지워지는 스탬프 이미지02"></p>
+                                </a>
+                                <span>PILOT 프릭션 지워지는 스탬프</span><br>
+                                <em>1,700원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont_more/5.png" alt="MT 마스킹테이프(벚꽃) 15mm 이미지01">
+                                    <p><img src="./imges/cont_more/5h.png" alt="MT 마스킹테이프(벚꽃) 15mm 이미지02"></p>
+                                </a>
+                                <span>MT 마스킹테이프(벚꽃) 15mm</span><br>
+                                <em>2,800원</em>
+                            </li>
+                            <li><a href="javascript:;">
+                                    <img src="./imges/cont_more/6.png" alt="라운드탑 space craft 다이컷 마테(구름,양) 15mm 이미지01">
+                                    <p><img src="./imges/cont_more/6h.png" alt="라운드탑 space craft 다이컷 마테(구름,양) 15mm 이미지02"></p>
+                                </a>
+                                <span>라운드탑 space craft 다이컷 마테(구름,양) 15mm</span><br>
+                                <em>4,600,원</em>
+                            </li>
+                        </ul>
+                    </article>
+                </article>
+            </div>
+        </section>
+        <section id="contents_2">
+            <div class="container">
+                <article class="contents_best">
+                    <article class="cont_best">
+                        <h3>BEST ITEM</h3>
+                        <a href="javascript:;">상품전체보기 <i class="fa-solid fa-angle-right"></i></a>
+                        <div class="tab_menu">
+                            <ul>
+                                <li class="active"><a href="#">&#35;볼펜</a>
+                                    <ul class="tab_cont">
+                                        <li><a href="javascript:;">
+                                                <img src="./imges/cont_best/p_1.png" alt="PILOT 쥬스업 볼펜 0.4 파스텔 6색 이미지01">
+                                                <p><img src="./imges/cont_best/p_1h.png" alt="PILOT 쥬스업 볼펜 0.4 파스텔 6색 이미지02"></p>
+                                            </a>
+                                            <span>PILOT 쥬스업 볼펜 0.4mm 파스텔 6색</span></li>
+                                        <li><a href="javascript:;">
+                                                <img src="./imges/cont_best/p_2.png" alt="PILOT 쥬스업 볼펜 0.4 10색 이미지01">
+                                                <p><img src="./imges/cont_best/p_2h.png" alt="PILOT 쥬스업 볼펜 0.4 10색 이미지02"></p>
+                                            </a>
+                                            <span>PILOT 쥬스업 볼펜 0.4mm 10색</span></li>
+                                        <li><a href="javascript:;">
+                                                <img src="./imges/cont_best/p_3.png" alt="제브라 SARASA 클립 10색 이미지01">
+                                                <p><img src="./imges/cont_best/p_3h.png" alt="제브라 SARASA 클립 10색 이미지02"></p>
+                                            </a>
+                                            <span>제브라 SARASA 클립 볼펜 0.4mm 10색</span></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">&#35;산리오</a>
+                                    <ul class="tab_cont">
+                                        <li><a href="javascript:;">
+                                                <img src="./imges/cont_best/s_1.png" alt="산리오 캐릭터 랜덤 피규어 이미지01">
+                                                <p><img src="./imges/cont_best/s_1h.png" alt="산리오 캐릭터 랜덤 피규어 이미지02"></p>
+                                            </a>
+                                            <span>산리오 캐릭터 랜덤 피규어</span></li>
+                                        <li><a href="javascript:;">
+                                                <img src="./imges/cont_best/s_2.png" alt="산리오 만년 스탬프 블럭도장 이미지01">
+                                                <p><img src="./imges/cont_best/s_2h.png" alt="산리오 만년 스탬프 블럭도장 이미지02"></p>
+                                            </a>
+                                            <span>산리오 만년 스탬프 블럭도장</span></li>
+                                        <li><a href="javascript:;">
+                                                <img src="./imges/cont_best/s_3.png" alt="산리오 칭찬 토이스탬프 도장 이미지01">
+                                                <p><img src="./imges/cont_best/s_3h.png" alt="산리오 칭찬 토이스탬프 도장 이미지02"></p>
+                                            </a>
+                                            <span>산리오 칭찬 토이스탬프 도장</span></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">&#35;반데 마테</a>
+                                    <ul class="tab_cont">
+                                        <li><a href="javascript:;">
+                                                <img src="./imges/cont_best/m_1.png" alt="반데 마스킹테이프 롤스티커 (벚꽃) 이미지01">
+                                                <p><img src="./imges/cont_best/m_1h.png" alt="반데 마스킹테이프 롤스티커 (벚꽃) 이미지02"></p>
+                                            </a>
+                                            <span>반데 마스킹테이프 롤스티커 (벚꽃)</span></li>
+                                        <li><a href="javascript:;">
+                                                <img src="./imges/cont_best/m_2.png" alt="반데 마스킹테이프 롤스티커 (수련) 이미지01">
+                                                <p><img src="./imges/cont_best/m_2h.png" alt="반데 마스킹테이프 롤스티커 (수련) 이미지02"></p>
+                                            </a>
+                                            <span>반데 마스킹테이프 롤스티커 (수련)</span></li>
+                                        <li><a href="javascript:;">
+                                                <img src="./imges/cont_best/m_3.png" alt="반데 마스킹테이프 롤 스티커 (디저트) 이미지01">
+                                                <p><img src="./imges/cont_best/m_3h.png" alt="반데 마스킹테이프 롤 스티커 (디저트) 이미지02"></p>
+                                            </a>
+                                            <span>반데 마스킹테이프 롤 스티커 (디저트)</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </article>
+            </div>
+        </section>
+        <section id="contents_3">
+            <div class="container">
+                <article class="contents_item clearfix">
+                    <article class="cont_item1">
+                        <figure class="front">
+                            <a href="javascript:;"><img src="./imges/cont_item/i1.png" alt="산리오 가습기이미지01"></a>
+                        </figure>
+                        <figure class="back">
+                            <a href="javascript:;"><img src="./imges/cont_item/i1.png" alt="산리오 가습기이미지02"></a>
+                            <figcaption>
+                                <p>산리오 가습기</p><br>
+                                <span>28,900</span><br><br><br><br><br><br>
+                                <em>바로가기 <i class="fa-solid fa-arrow-right"></i></em>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="cont_item2">
+                        <figure class="front">
+                            <a href="javascript:;"><img src="./imges/cont_item/i2.png" alt="SAIEN 수채화 마스킹테이프 이미지01"></a>
+                        </figure>
+                        <figure class="back">
+                            <a href="javascript:;"><img src="./imges/cont_item/i2.png" alt="SAIEN 수채화 마스킹테이프 이미지02"></a>
+                            <figcaption>
+                                <p>SAIEN 수채화 마스킹테이프</p><br>
+                                <span>4,000원</span><br><br>
+                                <em>바로가기 <i class="fa-solid fa-arrow-right"></i></em>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="cont_item3 cont_s">
+                        <figure class="front">
+                            <a href="javascript:;"><img src="./imges/cont_item/i3.png" alt="마인드웨이브 비눗방울 마스킹 씰 이미지01"></a>
+                        </figure>
+                        <figure class="back">
+                            <a href="javascript:;"><img src="./imges/cont_item/i3.png" alt="마인드웨이브 비눗방울 마스킹 씰 이미지02"></a>
+                            <figcaption>
+                                <p>마인드 웨이브 비눗방울<br> 마스킹 씰</p><br>
+                                <span>3,800원</span><br><br>
+                                <em>바로가기 <i class="fa-solid fa-arrow-right"></i></em>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="cont_item4 cont_s">
+                        <figure class="front">
+                            <a href="javascript:;"><img src="./imges/cont_item/i4.png" alt="펜코클립(투명) 이미지01"></a>
+                        </figure>
+                        <figure class="back">
+                            <a href="javascript:;"><img src="./imges/cont_item/i4.png" alt="펜코클립(투명) 이미지02"></a>
+                            <figcaption>
+                                <p>펜코클립(투명)</p><br>
+                                <span>2,700원</span><br><br>
+                                <em>바로가기 <i class="fa-solid fa-arrow-right"></i></em>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </article>
+            </div>
+        </section>
+        <section id="contents_4">
+            <div class="container">
+                <article class="cont4_photo">
+                    <h3>PHOTO REVIEW</h3>
+                    <article class="contents_photo">
+                        <div>
+                            <a href="javascript:;" class="photo_a">
+                                <img src="./imges/cont_photo/1p.png" alt="유니볼 시그노 DX 0.7mm (파스텔) 포토리뷰이미지01">
+                            </a>
+                             <p>유니볼 시그노 DX 0.7mm (파스텔) <br><br>
+                                <span>검정종이에 잘써지는 컬러 볼펜 찾다가<br>
+                                상세페이지에 검정색도 잘써지는 거보고 <br>
+                                구매했는데 잘보여서 너무 만족합니다!
+                                </span></p>
+                        </div>
+                        <div><a href="javascript:;"  class="photo_a"><img src="./imges/cont_photo/2p.png" alt="마인드웨이브 다이컷 마스킹테이프 포토리뷰이미지02"></a>
+                             <p>마인드웨이브 다이컷 마스킹테이프 <br><br>
+                                <span>자연마테 찾다가 다이컷 마인드웨이브<br>
+                                    다이컷 마테 보고 너무마음에 들어서<br>
+                                    재고 다 있는곳이 도모문구 밖에없더라구요<br>
+                                    그래서 구매했는데 다 예뻐요ㅠ 굿!!
+                                </span></p>
+                        </div>
+                        <div><a href="javascript:;"  class="photo_a"><img src="./imges/cont_photo/3p.png" alt="산리오 랜덤박스 포토리뷰이미지03"></a>
+                             <p>산리오 랜덤박스<br><br>
+                                <span>산리오 랜덤 박스 구매했는데 마이멜로디 좋아<br>
+                                    한다고하니까 상품다 마이멜로디로 보내주셨어요<br>
+                                    상품 겹치지도않고 넘귀엽습니다,,만원짜리구매했는데<br>
+                                     이정도라니,,ㅜ 3만원짜리 다시 구매하려구요
+                                </span></p>
+                        </div>
+                        <div><a href="javascript:;"  class="photo_a"><img src="./imges/cont_photo/4p.png" alt="MT 마스킹테이프(유리병) 포토리뷰이미지04"></a>
+                             <p>MT 마스킹테이프(유리병)<br><br>
+                                <span>유리병모양이라 모양대로 잘라서 안에 꽃스티커로 <br>
+                                    다꾸할수도 있고 그냥 모양그대로 붙여도 너무 예뻐요<br>
+                                    활용도 갑이라 완전 만족합니다!!!
+                                </span></p>
+                        </div>
+                        <div><a href="javascript:;"  class="photo_a"><img src="./imges/cont_photo/5p.png" alt="산리오 마이멜로디 쿠로미 드레스 피규어 랜덤키링 포토리뷰이미지05"></a>
+                             <p>산리오 마이멜로디 쿠로미 드레스 피규어 랜덤키링 <br><br>
+                                <span>마이멜로디 좋아하는데 5개 구매해서 3개나 <br>
+                                    마이멜로디 나왔어요ㅎㅎ 다 너무 예뻐서 행복합니다 <br>
+                                     중복나오면 어떡하지 했는데 중복도 없고 <br>
+                                    키링이 다 귀여워요!!맨날 들어올때마다 뽐뿌옵니다ㅜ
+                                </span></p>
+                        </div>
+                        <div><a href="javascript:;"  class="photo_a"><img src="./imges/cont_photo/6p.png" alt="반데 마스킹테이프 롤스티커(클로버) 포토리뷰이미지06"></a>
+                                <p>반데 마스킹테이프 롤스티커(클로버)<br><br>
+                                    <span>요즘 클로버가 유행이라 상품 구경하고 있었는데<br>
+                                        반데마테중에 클로버가 있다니! 낱개로 붙여도 되고 <br>
+                                        합쳐서 붙이면 세잎클로버, 네잎클로버 다가능해서 <br>
+                                        잘 쓸것같아요ㅎㅎ덤도 많이주고 감사합니다!
+                                    </span></p>
+                        </div>
+                    </article>
+                </article>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <article class="footer clearfix">
+                    <article class="f_logo">
+                        <a href="./index.html"><img src="./imges/logo.png" alt="푸터로고이미지"></a>
+                    </article>
+                    <article class="f_company clearfix">
+                        <p>회사정보</p>
+                        <span>법인명(상호): 도모문구(DOMOMUNGU)    대표자: 이수빈 <br>
+                            주소: 서울시 화곡로 149 
+                            </span>
+                    </article>
+                    <article class="f_cus clearfix">
+                        <p>고객센터</p>
+                        <span>
+                            월요일~금요일 / 10:00 -17:00 <br>
+                            점심시간 / 12:00 - 13:00 <br><br>
+                            주말 공휴일 휴무
+                        </span>
+                    </article>
+                    <article class="f_menu">
+                        <ul class="clearfix">
+                            <li><a href="javascript:;">회사소개</a></li>
+                            <li><a href="javascript:;">이용약관</a></li>
+                            <li><a href="javascript:;">개인정보처리방침</a></li>
+                            <li><a href="javascript:;">이용안내</a></li>
+                            <li><a href="javascript:;">배송조회</a></li>
+                        </ul>
+                    </article>
+                    <article class="f_copy">
+                        <span>COPYRIGHT ©2024 DOMOMUNGU CO., LTD ALL RIGHTS RESERVED.</span>
+                    </article>
+                    <article class="f_sns">
+                        <p>SNS</p>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://x.com/?lang=ko" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/?locale=ko_KR" target="_blank" ><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
+                    </article>
+                </article>
+            </div>
+        </footer>
+        <div id="pup">
+            <div class="layer">
+                <img src="./imges/pup.png" alt="배송지연 팝업창이미지">
+            </div>
+            <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        // 검색창
+        function enterS(){
+            if(event.keyCode == 13){
+                myFun()
+            }
+        }
+
+        function myFun(){
+            let x = document.getElementById("text").value;
+            console.log(x);
+            window.location.href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query="+x;
+        }
+
+        //네비 this
+        $(".nav > .nav1> ul > li").mouseover(function(){
+            $(this).find(".sub").stop().slideDown();
+        });
+        $(".nav > .nav1> ul > li").mouseout(function(){
+            $(this).find(".sub").stop().slideUp();
+        });
+
+        //네비 all
+        $(".all_btn").click(function(e){
+            e.preventDefault();
+            $(".all").slideToggle();
+            $(".all_btn").toggleClass("on");
+            
+            if($(".all_btn").hasClass("on")){
+                $(".all_btn").find("i").attr("class","fa-solid fa-xmark")
+            }else{
+                
+                $(".all_btn").find("i").attr("class","fa-solid fa-bars")
+            }
+        });
+
+        //배너
+        $('.banner').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500
+        });
+
+        //네비2 슬라이드
+        $(".nav2>.menu3>.boxm>ul>li").hide();
+        $(".nav2>.menu3>.boxm>ul>li:first-child").show();
+
+        setInterval(function(){
+            $(".nav2>.menu3>.boxm>ul>li:first-child").fadeOut().next().fadeIn().end().appendTo(".nav2>.menu3>.boxm>ul");
+        },3000);
+
+        $(".nav2>.menu4>.boxm>ul>li").hide();
+        $(".nav2>.menu4>.boxm>ul>li:first-child").show();
+
+        setInterval(function(){
+            $(".nav2>.menu4>.boxm>ul>li:first-child").fadeOut().next().fadeIn().end().appendTo(".nav2>.menu4>.boxm>ul");
+        },3000);
+
+        //cont_new_클릭
+        $(".btn_more").click(function(e){
+            e.preventDefault();
+            $(".more").slideDown();
+            $(".btn_more").hide();
+            
+        });
+
+        //cont_best_탭메뉴
+        const tabMenu = $(".tab_menu");
+        tabMenu.find(".tab_cont").hide();
+        tabMenu.find("li.active>.tab_cont").show().parent("li").addClass("active").siblings("li").removeClass("active").find(".tab_cont").hide();
+
+        tabMenu.find(">ul>li>a").click(fun_tabmenu).focus(fun_tabmenu);
+
+        function fun_tabmenu(e){
+            e.preventDefault();
+            $(this).next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").find(".tab_cont").hide();
+        }
+
+        //cont_photo
+        $('.contents_photo').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        });
+
+        //pup
+        $(".close").click(function(){
+            $("#pup").fadeOut();
+        });
+    </script>
+</body>
+</html>
